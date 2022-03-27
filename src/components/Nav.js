@@ -31,7 +31,7 @@ export default function Nav() {
     <nav className={`nav ${show ? 'nav_black' : ''}`}>
       <img
         className="netflix_logo"
-        src="https://cheej10.github.io/netflix-clone/public/img/netflix_logo.png"
+        src="https://cheej10.github.io/netflix-clone/img/netflix_logo.png"
         alt="netflix logo"
         onClick={() => window.location.reload()}
         width="180"
@@ -45,7 +45,7 @@ export default function Nav() {
       />
       <img
         className="netflix_avatar"
-        src="https://cheej10.github.io/netflix-clone/public/img/netflix_avatar.png"
+        src="https://cheej10.github.io/netflix-clone/img/netflix_avatar.png"
         alt="netflix avatar"
       />
     </nav>
